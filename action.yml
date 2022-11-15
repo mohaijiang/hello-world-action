@@ -1,0 +1,12 @@
+name: 'simple hello world'
+description: 'Executing remote ssh commands'
+author: 'mohaijiang'
+inputs:
+  name:
+    description: 'world'
+    default: 'world'
+runs:
+  using: 'composite'
+  steps:
+    - run: hello.sh
+      shell: bash
