@@ -10,5 +10,5 @@ runs:
   steps:
     - run: hello.sh
       shell: bash
-    - run: echo WORLD
+    - run: echo $name
       shell: bash
